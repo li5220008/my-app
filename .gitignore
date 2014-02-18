@@ -5,7 +5,8 @@
 *.iml
 *.ipr
 *.iws
-out/
+/out
+*/out
 
 #################
 ## svn
@@ -38,3 +39,21 @@ local.properties
 .settings/
 .myeclipse/
 .loadpath
+
+#Geany project file
+.geany
+
+#KDevelop project file and directory
+.kdev4/
+*.kdev4
+
+#Build targets
+/target
+*/target
+
+#Report directories
+/reports
+*/reports
+
+#Mac-specific directory that no other operating system needs.
+.DS_Store
